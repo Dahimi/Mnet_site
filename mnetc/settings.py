@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-7umgnr@kg*^e-=biu#8=o6=0sq-^$2gr!@i*lq5!a=diu3xgaj
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https:/mnetsite-production.up.railway.app', 'https://www.mnetsite-production.up.railway.app']
 
 # Application definition
 
